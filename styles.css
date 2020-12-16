@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+
+body{
+    font-family : 'Philosopher', sans-serif;
+}
+
+:root{
+    --primary-color:#DC2626;
+    --dark-color:#4B5563;
+
+}
+
+/* navbar */
+
+.link{
+    text-decoration: none;
+    padding: 0px 2rem;
+    color:white
+    
+}
+
+.active{
+    font-weight: bold;
+}
+
+.nav-items{
+    list-style: none;
+    padding: 9px 30px 2rem 0rem;
+    text-align: right;
+    margin: 0px 40px 0rem 0px;
+    
+    
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+}
+.brand{
+    color: white;
+    padding: 2rem 2px 0rem 1rem;
+}
+.navigation li{
+    display: inline;
+    
+}
+
+/* header */
+
+.header-text{
+    text-align: center;
+}
+
+.highlight{
+   color: var(--dark-color) ; 
+   font-weight: bold;
+   font-size: 2.5rem;
+}
+
+.intro-header{
+    font-size: 5rem;
+}
+
+.img{
+    max-width: 350px;
+    display: block;
+    margin: 5rem auto;
+}
