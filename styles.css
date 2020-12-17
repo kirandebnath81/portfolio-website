@@ -167,6 +167,8 @@ border-radius: 1rem;
 .img-new{
 margin: 30px auto;
 display: block;
+max-width: 630px;
+max-height: 250px;
 }
 
 .blog-content{
