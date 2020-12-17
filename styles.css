@@ -130,13 +130,13 @@ border-radius: 1rem;
 /* footer */
 .social-media{
     max-width: 30px;
-    padding: 2rem;
+    padding: 1rem;
     
 }
 .social{
     
   list-style: none;
-  padding: 9px 30px 2rem 0rem;
+  
   text-align: center;
   margin: 0px 40px 0rem 0px;     
     
@@ -150,13 +150,14 @@ border-radius: 1rem;
     background-color: var(--primary-color);
     border-top-right-radius: 1rem;
     
+    
 }
 
 .footer-head{
     text-align: center;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 .margin-md{
