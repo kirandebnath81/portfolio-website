@@ -1,7 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Changa&display=swap");
+
 
 body{
-    font-family : 'Philosopher', sans-serif;
+    /* font-family : 'Philosopher', sans-serif; */
+
+    font-family: "Changa", sans-serif;
+    margin: 0px;
 }
 
 :root{
@@ -26,22 +31,22 @@ body{
     font-weight: bold;
 }
 
-.nav-items{
+.nav-items {
     list-style: none;
-    padding: 9px 30px 2rem 0rem;
     text-align: right;
-    margin: 0px 40px 0rem 0px;
-    
-    
+    margin: 0px 4px 0rem 0px;
+    padding-bottom: 10px;
 }
 
 .navigation{
     background-color: var(--primary-color);
     border-bottom-left-radius: 1rem;
+    max-width: 1200px;
+    margin: 0px auto;
 }
 .brand{
     color: white;
-    padding: 2rem 2px 0rem 1rem;
+    padding: 0.5rem 2px 0rem 0.5rem;
     font-weight: bold;
     font-size: 1.3rem;
 }
@@ -77,9 +82,9 @@ body{
 .section{
     margin: 6rem auto;
     max-width: 600px;
-    text-align: center;
+    
     font-size: large;
-    line-height: 1.5rem;
+    /* line-height: 1.5rem; */
 }
 .section-one{
 background-color: var(--light-dark) ;
@@ -113,6 +118,7 @@ border-radius: 1rem;
     background-color: var(--primary-color);
     color: white;
     border-radius: 1rem;
+    margin: 1rem;
 }
 
 .link-secondary{
